@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { db } from './firebaseConnection';
 import { doc, setDoc, collection, addDoc, getDoc, getDocs, updateDoc, deleteDoc, onSnapshot} from 'firebase/firestore'
 
-import "./app.css";
+import './App.css';
 
 function App() {
   const [aluno, setAluno] = useState('');
